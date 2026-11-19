@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Terrarium_Smart_Light") (type "KiCad") (uri "${KIPRJMOD}/libs/Terrarium_Smart_Light.kicad_sym") (options "") (descr "Terrarium Smart Light project symbols"))
+)

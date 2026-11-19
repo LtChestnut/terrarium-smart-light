@@ -1,0 +1,554 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8b9e053c-9ff0-4234-8e58-9438eeee0c72")
+	(paper "A4")
+	(title_block
+		(title "Terrarium Smart Light")
+		(date "2026-11-16")
+		(rev "0.1")
+		(comment 1 "ESP32 (XIAO) terrarium grow light - full-spectrum white + addressable RGB")
+		(comment 2 "See docs/plan.md for design rationale")
+	)
+	(lib_symbols)
+	(text "Terrarium Smart Light - top level\n5 V USB-C power input -> XIAO ESP32-C6 + white LED boost driver + RGB pixel chain.\nInter-sheet connections are drawn as wires between sheet pins.\nAll components are placed on the top side of the PCB (bottom side is flat for the heatsink)."
+		(exclude_from_sim no)
+		(at 25.4 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5f91d031-4ea2-5a57-967f-29c306fbe5a7")
+	)
+	(junction
+		(at 246.38 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd989fe4-93fb-5dee-95f5-81aef4ba1c58")
+	)
+	(junction
+		(at 167.64 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e034d107-e74e-5b46-8572-55a2e27ba9e5")
+	)
+	(wire
+		(pts
+			(xy 246.38 106.68) (xy 233.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0834be9a-c255-556a-ab62-10ee6fc890ee")
+	)
+	(wire
+		(pts
+			(xy 147.32 81.28) (xy 187.96 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206304c5-0fe8-5579-8410-0bf525fd83b3")
+	)
+	(wire
+		(pts
+			(xy 147.32 76.2) (xy 187.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33884a64-5542-5d10-8ea4-abfe7d34c6d0")
+	)
+	(wire
+		(pts
+			(xy 66.04 71.12) (xy 106.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4545dcd6-ceb2-5f2b-9194-41f7cf112c6d")
+	)
+	(wire
+		(pts
+			(xy 66.04 76.2) (xy 106.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0f1b44-d1cb-529c-bf1a-92b81e2d086a")
+	)
+	(wire
+		(pts
+			(xy 167.64 71.12) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a1a35e-321d-5cae-9214-68cd26a7f672")
+	)
+	(wire
+		(pts
+			(xy 246.38 71.12) (xy 246.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d39cf88-7c4e-520a-9ace-3fe59f56b1a1")
+	)
+	(wire
+		(pts
+			(xy 167.64 111.76) (xy 187.96 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2ec601-bdd9-5e1a-97d9-380ca3c16436")
+	)
+	(wire
+		(pts
+			(xy 167.64 71.12) (xy 167.64 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908e9341-ea53-59bb-a02b-fd0827095501")
+	)
+	(wire
+		(pts
+			(xy 66.04 55.88) (xy 246.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d23c066-ae39-51dd-bb2d-844f34add115")
+	)
+	(wire
+		(pts
+			(xy 66.04 81.28) (xy 106.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a261f6c8-5d56-5f27-8df3-4fc1948553ec")
+	)
+	(wire
+		(pts
+			(xy 246.38 55.88) (xy 246.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f979b4-6f28-516f-97fd-3c1d59203c9a")
+	)
+	(wire
+		(pts
+			(xy 147.32 71.12) (xy 167.64 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2197603-fedd-5fe4-a043-493292f14cf7")
+	)
+	(wire
+		(pts
+			(xy 147.32 106.68) (xy 187.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4da1739-e0b5-537f-be3e-d63a93f6d6d5")
+	)
+	(wire
+		(pts
+			(xy 246.38 71.12) (xy 233.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9399be2-fcac-5727-8050-c7892a985c08")
+	)
+	(sheet
+		(at 187.96 66.04)
+		(size 45.72 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "34757264-f628-5867-a266-dc02144e763a")
+		(property "Sheetname" "White LED Driver"
+			(at 187.96 65.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "white_led_driver.kicad_sch"
+			(at 187.96 92.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 187.96 71.12 180)
+			(uuid "e16cce54-5717-5d08-ac23-1e9f49db644d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NTC" output
+			(at 187.96 76.2 180)
+			(uuid "2e854c55-a512-53b7-86ed-87acc1bb6ac8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WHITE_PWM" input
+			(at 187.96 81.28 180)
+			(uuid "b638c862-b8d9-5d57-bcf1-f595599939a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS" input
+			(at 233.68 71.12 0)
+			(uuid "f69add6e-d1cd-59b4-96e0-d31e060ed979")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Terrarium Smart Light"
+				(path "/8b9e053c-9ff0-4234-8e58-9438eeee0c72"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 66.04)
+		(size 40.64 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3fc9385b-f0c5-5a5b-989c-c488d51e3d9e")
+		(property "Sheetname" "MCU"
+			(at 106.68 65.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 106.68 117.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "XIAO_5V" input
+			(at 106.68 71.12 180)
+			(uuid "2619f7ef-b84b-5afb-99d3-6a39f930c47a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CC1" input
+			(at 106.68 76.2 180)
+			(uuid "849d0274-669b-55a5-a033-10f41111a94e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CC2" input
+			(at 106.68 81.28 180)
+			(uuid "580b2ee2-abeb-5c90-9b3a-3dc2f2123646")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" output
+			(at 147.32 71.12 0)
+			(uuid "3da7d8f3-a456-54fa-8263-8ef030489dff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC" input
+			(at 147.32 76.2 0)
+			(uuid "bae65f2b-522a-55c2-adaa-94bedf4de897")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WHITE_PWM" output
+			(at 147.32 81.28 0)
+			(uuid "6cd41263-d52d-5a6d-9401-bec2286f23fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RGB_DIN" output
+			(at 147.32 106.68 0)
+			(uuid "4a7587bc-4dcd-5b96-aa52-77597925f38b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Terrarium Smart Light"
+				(path "/8b9e053c-9ff0-4234-8e58-9438eeee0c72"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 101.6)
+		(size 45.72 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "425caf8c-0631-5058-a01e-d124e6d2c028")
+		(property "Sheetname" "RGB LEDs"
+			(at 187.96 100.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rgb_leds.kicad_sch"
+			(at 187.96 117.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 187.96 106.68 180)
+			(uuid "4275e898-ab31-507b-90ec-a8f3b378f113")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 187.96 111.76 180)
+			(uuid "86ab8248-831e-56eb-8406-2a4101d71305")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS" input
+			(at 233.68 106.68 0)
+			(uuid "2bdb42be-9292-529b-944d-44c3a3e1cd15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Terrarium Smart Light"
+				(path "/8b9e053c-9ff0-4234-8e58-9438eeee0c72"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 50.8)
+		(size 40.64 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c5ba3fc8-13e3-5b3b-9fae-12d387860ae0")
+		(property "Sheetname" "Power Input"
+			(at 25.4 50.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_input.kicad_sch"
+			(at 25.4 97.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS" output
+			(at 66.04 55.88 0)
+			(uuid "69feba76-552c-5dea-bad3-8c53c7565d8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XIAO_5V" output
+			(at 66.04 71.12 0)
+			(uuid "27fa3b7a-6cfd-5a94-87f2-b3a0fb576742")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CC1" output
+			(at 66.04 76.2 0)
+			(uuid "78b46a9b-158d-5d96-a001-fbf83b6355c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CC2" output
+			(at 66.04 81.28 0)
+			(uuid "338379db-6e0f-58f7-9a9f-33a50df76067")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Terrarium Smart Light"
+				(path "/8b9e053c-9ff0-4234-8e58-9438eeee0c72"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

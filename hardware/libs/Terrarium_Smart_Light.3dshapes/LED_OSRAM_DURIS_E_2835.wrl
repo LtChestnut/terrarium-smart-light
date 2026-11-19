@@ -1,0 +1,11 @@
+#VRML V2.0 utf8
+# OSRAM DURIS E 2835 (GW JTLMS3.CM) simplified body: 3.5 x 2.8 x 0.7 mm. Generated for the Terrarium Smart Light project.
+Transform { translation 0 0 0.13780 children [ Shape {
+  appearance Appearance { material Material { diffuseColor 0.92 0.92 0.90 specularColor 0.3 0.3 0.3 shininess 0.3 } }
+  geometry Box { size 1.37795 1.10236 0.27559 } } ] }
+Transform { translation 0 0 0.27756 children [ Shape {
+  appearance Appearance { material Material { diffuseColor 0.98 0.85 0.25 emissiveColor 0.25 0.2 0.0 shininess 0.6 } }
+  geometry Box { size 1.06299 0.86614 0.00394 } } ] }
+Transform { translation -0.62992 0.49213 0.27953 children [ Shape {
+  appearance Appearance { material Material { diffuseColor 0.2 0.5 0.2 } }
+  geometry Box { size 0.11811 0.11811 0.00394 } } ] }
