@@ -2,6 +2,8 @@
 
 An ESP32-based smart grow light for terrariums: a compact 56 mm round board with components on one side with full-spectrum white LEDs for plant growth, addressable RGB LEDs for effects, and Wi-Fi control.
 
+![3D render of the 56 mm PCB: XIAO ESP32-C6 in the centre, a ring of 16 white and 6 RGB LEDs, boost driver below, USB-C power input at the bottom edge](docs/images/pcb_render.png)
+
 ## Features (planned)
 - Seeed Studio XIAO module soldered directly to the board (ESP32-C6 recommended for its on-board antenna; the S3 and C3 also fit)
 - Dimmable, wide-angle (120°) warm white LEDs (ams OSRAM DURIS E 2835, 3000 K, CRI 90+) on a constant-current boost driver (Legend-Si LGS63032EP, flicker-free PWM dimming)
