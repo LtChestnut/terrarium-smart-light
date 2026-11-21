@@ -24,7 +24,7 @@
 	(fp_line (start -2.3 1.7) (end -2.3 -1.7) (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (uuid "553fb926-38aa-5704-b68a-3c501f4ffd63"))
 	(pad "1" smd rect (at -0.71 0) (size 2.12 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (uuid "6891413a-708b-5fe3-ba8b-5f2038c33053"))
 	(pad "2" smd rect (at 1.31 0) (size 0.92 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (uuid "2443a0c6-2a47-5987-896f-03a040b2da86"))
-	(model "${KIPRJMOD}/libs/Terrarium_Smart_Light.3dshapes/LED_OSRAM_DURIS_E_2835.wrl"
+	(model "${KIPRJMOD}/libs/Terrarium_Smart_Light.3dshapes/LED_OSRAM_DURIS_E_2835.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -18,6 +18,17 @@ An ESP32-based smart grow light for terrariums: a compact 56 mm round board with
 | [docs/](docs/) | Design plan ([docs/plan.md](docs/plan.md)) and research notes ([docs/research/](docs/research/)) |
 | [hardware/](hardware/) | KiCad project, BOM, fabrication outputs |
 | [firmware/](firmware/) | PlatformIO project for the XIAO (ESP32-C6 primary, S3 supported) |
+| [enclosure/](enclosure/) | Enclosure STEP files exported from Onshape |
+
+## Mechanical design
+The enclosure is designed in Onshape: [Terrarium Smart Light enclosure (Onshape)](https://cad.onshape.com/documents/52f2a238255e278aeea46164/w/27e2eabc0946d9f68195188c/e/e4bc6922c2e565c6999771c4). The Onshape document is the source of truth; the STEP files in [enclosure/](enclosure/) are exports of it, so re-export them after changing the design.
+
+| File | Part |
+|---|---|
+| [enclosure/main_enclosure.step](enclosure/main_enclosure.step) | Main enclosure body |
+| [enclosure/frosted_window.step](enclosure/frosted_window.step) | Frosted window over the LEDs |
+
+The PCB model used in the assembly is [hardware/Terrarium Smart Light.step](hardware/Terrarium%20Smart%20Light.step), exported from KiCad with `kicad-cli pcb export step --subst-models --no-optimize-step`. It mounts with the four M3 holes on the board edge.
 
 ## Status
-Planning stage. See [docs/plan.md](docs/plan.md) for the architecture, power budget, BOM and open decisions.
+PCB v0.6 has been sent for manufacture (JLCPCB); bring-up and firmware testing follow once boards arrive. The enclosure is designed in Onshape. See [docs/plan.md](docs/plan.md) for the architecture, power budget, BOM and open decisions.

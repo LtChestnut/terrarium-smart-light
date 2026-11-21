@@ -28,6 +28,7 @@ A terrarium grow light. A 56 mm circular PCB (centred at 50,50 mm; 4× M3 **non-
 - `docs/`: plan and research notes (`docs/research/`). Cite sources for part data.
 - `hardware/`: KiCad project (`Terrarium Smart Light.kicad_pro`) with a hierarchical schematic (root plus `power_input`, `mcu`, `white_led_driver` and `rgb_leds` sheets). Project symbol and footprint libraries are in `hardware/libs/` (`Terrarium_Smart_Light.kicad_sym` / `.pretty`), registered via the project `sym-lib-table` and `fp-lib-table`. The BOM is in `hardware/bom/` and Gerbers go in `hardware/fab/`.
 - `docs/datasheets/`: every component datasheet converted to markdown (automatic text extraction, so check the original PDF for drawings, pinouts and land patterns).
+- `enclosure/`: enclosure STEP exports. The enclosure is designed in Onshape (link in README.md); the Onshape document is the source of truth.
 - `firmware/`: PlatformIO project, Arduino framework, with environments for the XIAO ESP32-C6 (primary) and ESP32-S3.
 
 ## Firmware conventions
